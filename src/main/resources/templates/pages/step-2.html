@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<h1>Step Two</h1>
+<h2>Plan your TODAY</h2>
+
+<img th:src="@{/img/planning.png}"/>
+
+<p>
+    Now that you already have probably tens new to-do’s listed, pick the important ones you will focus on TODAY. Not today and tomorrow, not this week, but just TODAY. It’s important. Else, overwhelmed by the list, you don’t know where to start. And even if you know, you will never finish all of them, not because you are an unproductive loser (that’s how we end up feeling with these never-ending lists!), but simply because, let’s be real, you only have a limited number of hours during the day and there is not much we can do about it.
+    Depending on the complexity, pick let’s say five of them, and try to get those done. The difference is that now you will more likely have your list cleared at the end of the day, you will feel accomplished and in control instead of stressed out and hopeless.
+</p>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

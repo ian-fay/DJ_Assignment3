@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<h1>Step One</h1>
+<h2>Write down everything you want to do</h2>
+
+<img th:src="@{/img/writing.jpg}"/>
+
+<p>
+    This is simple but fundamental: if you don’t have a complete list of the things to do in one place, there is no way you can get them done. Writing things down helps you see the big picture, pick priorities, and, psychologically, makes you feel more in control and less stressed about forgetting things.
+    When listing items, always break down complex tasks into simpler intermediate, specific, steps: don’t write “Kitchen remodeling” or “Deliver school paper by next Friday” but rather “Search for best dishwasher model online” or “Get book for research”.
+</p>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

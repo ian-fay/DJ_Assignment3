@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<h1>Step Three</h1>
+<h2>Now, just do it</h2>
+
+<img th:src="@{/img/writing.png}"/>
+
+<p>
+    Now the plan is simple, short and actionable: you have no excuses. Look at the list, don’t think, and just do the first task of the five, important, you planned. Do you get distracted or interrupted? Sure, it’s our lives these days: go back to your today’s list to immediately refocus on what to do next.
+
+    WHAT TO DO: Keep going back to the plan and simply act on it.
+    When completed, mark the task Done in Kyber to track progress against your daily plan.
+
+    Try it for a week and you will see the results!
+</p>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
